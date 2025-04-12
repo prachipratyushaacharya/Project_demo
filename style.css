@@ -159,9 +159,9 @@
     hr {
         opacity: 0.7;
         width: 100%;
+        margin-left: 9%;
     }
-
-    
+ 
 /* style the content of article for main heading */
     #he2 {
         color: white;
@@ -183,19 +183,41 @@
 /* Get Involved Button */
     .get_involved {
         background-color: #089e5b;
-        border-radius: 15px;
-        padding: 10px;
-        width: 100px;
+        border-radius: 20px;
+        padding: 15px;
+        padding-left: 26px;
+        width: 150px;
     }
 
     .get_involved a {
         color: white !important;
         font-weight: bold;
+        font-size: small;
         text-decoration: none;
     }
 
     .get_involved:hover {
         background-color: #37006b;
+    }
+
+/*Engage button*/
+    .engage {
+        background-color: #37006b;
+        border-radius: 20px;
+        padding: 15px;
+        padding-left: 45px;
+        width: 150px;
+    }
+
+    .engage a {
+        color: white !important;
+        font-weight: bold;
+        font-size: small;
+        text-decoration: none;
+    }
+
+    .engage:hover{
+        background-color: #330e7c;
     }
     
     #But2 {

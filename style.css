@@ -182,11 +182,13 @@
 
 /* Get Involved Button */
     .get_involved {
+        display: inline;
         background-color: #089e5b;
         border-radius: 20px;
         padding: 15px;
-        padding-left: 26px;
+        padding-left: 20px;
         width: 150px;
+        
     }
 
     .get_involved a {
@@ -202,10 +204,11 @@
 
 /*Engage button*/
     .engage {
+        display: inline;
         background-color: #37006b;
         border-radius: 20px;
         padding: 15px;
-        padding-left: 45px;
+        padding-left: 15px;
         width: 150px;
     }
 

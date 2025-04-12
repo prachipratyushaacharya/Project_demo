@@ -1,5 +1,4 @@
-<style>
-     /* reset default margins and paddings */
+/* reset default margins and paddings */
         body,html{
             margin: 0px;
             padding: 0px;
@@ -209,5 +208,3 @@
             margin-top: 10px;
             shape-margin: 50%;
     }
-
-</style>

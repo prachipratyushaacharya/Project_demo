@@ -78,8 +78,7 @@
 /* Style the list item */
     #nav2 ul li {
         display: inline;        /*Arrange items in a row*/
-        /* margin: 10px 0px;         Space between items */
-
+        margin: 10px 0px;         /*Space between items*/
         border-right: 1.55px solid rgba(0, 0, 0, 0.2);
         padding-right:20px;
         padding-left: 10px;
@@ -104,6 +103,7 @@
 /*container for nav */
     .nav {
         display: flex;
+        flex-direction: row; 
         flex-direction: row; 
         justify-content:center;
     }
@@ -184,7 +184,7 @@
     .get_involved {
         display: inline;
         background-color: #089e5b;
-        border-radius: 20px;
+        border-radius: 30px;
         padding: 15px;
         padding-left: 20px;
         width: 150px;
@@ -206,7 +206,7 @@
     .engage {
         display: inline;
         background-color: #37006b;
-        border-radius: 20px;
+        border-radius: 25px;
         padding: 15px;
         padding-left: 15px;
         width: 150px;
